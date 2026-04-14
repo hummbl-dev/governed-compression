@@ -1,4 +1,4 @@
-"""Tuple-like experiment logging payloads for governed compression."""
+"""Tuple-like experiment run payloads for governed compression."""
 
 from __future__ import annotations
 
