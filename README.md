@@ -45,6 +45,11 @@ pip install -e .
 python -m governed_compression.cli
 ```
 
+## Repository Health
+
+See [REPO_HEALTH.md](DOCS/REPO_HEALTH.md) for the authoritative repository
+health contract and validation checks.
+
 ## Current Status
 
 Stage 1 scaffold only.
