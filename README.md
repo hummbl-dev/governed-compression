@@ -1,6 +1,11 @@
 # governed-compression
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/hummbl-dev/governed-compression/main)](https://github.com/hummbl-dev/governed-compression/commits/main)
+
 Private research implementation surface for governed vector and KV-cache compression.
+
+Learn more at [hummbl.io](https://hummbl.io).
 
 ## Purpose
 
@@ -44,6 +49,11 @@ source .venv/bin/activate
 pip install -e .
 python -m governed_compression.cli
 ```
+
+## Repository Health
+
+See [REPO_HEALTH.md](DOCS/REPO_HEALTH.md) for the authoritative repository
+health contract and validation checks.
 
 ## Current Status
 
