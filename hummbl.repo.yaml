@@ -1,0 +1,26 @@
+schema: "hummbl-repo-manifest@0.1"
+repo:
+  full_name: "hummbl-dev/governed-compression"
+  name: "governed-compression"
+  visibility: "private"
+  default_branch: "main"
+  status: "archived"
+purpose:
+  type: "library"
+  summary: "Governed vector and KV-cache compression research — CPU reference, reproducible benchmarks, tuple-based experiment logging"
+  source_of_record: "git"
+authority:
+  steward: "HUMMBL Research Institute"
+  approving_human: "Reuben Bowlby"
+governance:
+  agents_required: true
+  krineia_required: true
+  receipts_dir: "_receipts/"
+  handoffs_dir: "docs/handoffs/"
+  adr_dir: "docs/adr/"
+krineia:
+  manifest: "KRINEIA.md"
+  chains:
+    primary:
+      chain_id: "governed-compression-primary"
+      storage: "_receipts/krineia/primary.jsonl"
